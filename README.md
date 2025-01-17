@@ -1,7 +1,5 @@
 <h2>Approach :</h2>
-<br>
 <h3>Textsimilaritycheck:</h3>
-<br>
 Model used: paraphrase-MiniLM-L6-v2
 <br>
 This search method is based on semantic similarity. It uses cosine similarity and sentence embeddings to identify the semantically closest sentence in a database. Tasks like question-answer matching, knowledge retrieval, and paraphrase detection benefit from this approach.
