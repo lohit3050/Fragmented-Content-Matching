@@ -21,8 +21,6 @@ Finding the Most Similar Sentence:
 <br>
 Max(cosine_scores[0]) is used to determine the highest cosine similarity score.
 The matching sentence is retrieved from database_sentences using the index of this greatest score.
-<br>
-<br>
 <h3>Imagesimilartycheck:</h3>
 <br>
 Technique used: Structural Similarity Index (SSIM)
