@@ -1,6 +1,6 @@
-<h2>Approach</h2> :
+<h2>Approach :</h2>
 <br>
-Textsimilaritycheck:
+<h3>Textsimilaritycheck:</h3>
 <br>
 Model used: paraphrase-MiniLM-L6-v2
 <br>
@@ -25,7 +25,7 @@ Max(cosine_scores[0]) is used to determine the highest cosine similarity score.
 The matching sentence is retrieved from database_sentences using the index of this greatest score.
 <br>
 <br>
-Imagesimilartycheck:
+<h3>Imagesimilartycheck:</h3>
 <br>
 Technique used: Structural Similarity Index (SSIM)
 <br>
@@ -45,7 +45,7 @@ The algorithm determines the SSIM score between each database image and the user
 It records the comparable image (most_similar_image) and the highest similarity score (highest_similarity).
 <br>
 <br>
-Libraries :
+<h3>Libraries :</h3>
 <br>
 1.sentence-transformers
 <br>
